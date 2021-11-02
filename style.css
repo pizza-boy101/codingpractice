@@ -1,0 +1,88 @@
+header {
+  font-family: Helvetica;
+  max-width: 110% !important;
+  max-height: 30vh !important;
+  height: 500px;
+  background: url("photos/coding1.jpeg");
+  margin: auto;
+  display: grid;
+}
+.fse {
+  text-align: center;
+  top: 500px;
+  color: rgb(226, 226, 226);
+  position: relative;
+  top: 100px;
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.Bizza {
+  color: white;
+  position: relative;
+  left: 10px;
+  bottom: 70px;
+}
+
+.project {
+  color: white;
+  position: relative;
+  left: 1400px;
+  bottom: 190px;
+}
+
+.about-me {
+  color: white;
+  position: relative;
+  left: 1275px;
+  bottom: 131px;
+}
+
+#about-me {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: black;
+  font-family: Helvetica;
+  font-size: 40px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+@media only screen and (min-width: 764px) {
+  img {
+    width: 100px;
+  }
+}
